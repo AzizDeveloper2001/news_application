@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a">Все новости в одном месте, узнавайте последние новости первым</string>
+    <string name="b">Выберите ваши любимые темы</string>
+    <string name="c">Выберите некоторые из ваших любимых тем, чтобы мы могли предложить вам лучшие новости.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="d">The latest situation in the presidential election</string>
+    <string name="e">Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters. Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters.</string>
+    <string name="f">The latest situation in the presidential election</string>
+    <string name="g">A Simple Trick For Creating Color Palettes Quickly</string>
+
+    <string name="browse">Browse</string>
+    <string name="next">Следующий</string>
+    <string name="category">Категория</string>
+    <string name="bookmark">Закладка</string>
+    <string name="settings">Настройки</string>
+    <string name="result">Результат</string>
+    <string name="dis">Откройте для себя вещи этого мира</string>
+    <string name="th">Тысячи статей в каждой категории</string>
+    <string name="mode">Легкий режим</string>
+    <string name="dark">Темный режим</string>
+    <string name="language">Языки</string>
+    <string name="uz">Узбекский</string>
+    <string name="en">Aнглийский</string>
+    <string name="ru">Pусский</string>
+    <string name="saved">Сохраненные статьи в библиотеке</string>
+    <string name="h">Вы еще не сохранили ни одной статьи. Начните читать и добавляйте их в закладки прямо сейчас</string>
+    <string name="recommended">Pекомендуемые</string>
+
+    <string name="business">Бизнес</string>
+    <string name="entertainment">Развлечение</string>
+    <string name="general">Общий</string>
+    <string name="health">Здоровье</string>
+    <string name="sport">Спорт</string>
+    <string name="technology">Технология</string>
+    <string name="science">Наука</string>
+</resources>

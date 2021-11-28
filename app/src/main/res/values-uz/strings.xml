@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a">Barcha yangiliklar bir joyda, so\'nggi yangiliklardan birinchi bo\'lib xabardor bo\'ling</string>
+    <string name="b">Sevimli mavzularingizni tanlang</string>
+    <string name="c">Sizga yaxshiroq yangiliklarni taklif qilishimiz uchun sevimli mavzularingizdan bir nechtasini tanlang.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="d">The latest situation in the presidential election</string>
+    <string name="e">Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters. Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters.</string>
+    <string name="f">The latest situation in the presidential election</string>
+    <string name="g">A Simple Trick For Creating Color Palettes Quickly</string>
+
+    <string name="browse">Browse</string>
+    <string name="next">Keyingi</string>
+    <string name="category">Kategoriya</string>
+    <string name="bookmark">Saqlanganlar</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="result">Natija</string>
+    <string name="dis">Dunyodagi narsalarni kashf eting</string>
+    <string name="th">Har bir kategoriyada minglab maqolalar</string>
+    <string name="mode">Kunduzgi rejim</string>
+    <string name="dark">Tungi rejim</string>
+    <string name="language">Tillar</string>
+    <string name="uz">O\'zbekcha</string>
+    <string name="en">Inglizcha</string>
+    <string name="ru">Ruscha</string>
+    <string name="saved">Kutubxonaga maqolalarni saqlash</string>
+    <string name="h">Siz hali hech qanday maqola saqlamagansiz. Hoziroq ularni o\'qishni va xatcho\'plarni qo\'yishni boshlang</string>
+    <string name="recommended">Tavsiya etilganlar</string>
+
+    <string name="business">Biznes</string>
+    <string name="entertainment">Ko\'ngilochar</string>
+    <string name="general">Umumiy</string>
+    <string name="health">Sog\'liqni saqlash</string>
+    <string name="sport">Sport</string>
+    <string name="technology">Texnologiya</string>
+    <string name="science">Ilm fan</string>
+</resources>

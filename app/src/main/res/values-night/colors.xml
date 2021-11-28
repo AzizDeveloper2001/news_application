@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabcolor">#ffffff</color>
+
+    <color name="titlecolors">#ffffff</color>
+
+    <color name="tabselect">#7A7272</color>
+    <color name="unselect">#ffffff</color>
+
+    <color name="progress">#ffffff</color>
+</resources>
