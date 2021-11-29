@@ -87,37 +87,9 @@ class SearchFragment : Fragment() {
         binding.search.setOnEditorActionListener(TextView.OnEditorActionListener { v, actionId, event ->
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 val tv = binding.search.text.toString()
-               lifecycleScope.launch {
-                    newsViewModels.getsearchwords(binding.search.text.toString()).collect {
-                        when (it) {
-                            is NewsResource.Success -> {
-                                Log.d(TAG, "onCreateView: ${it.articlelist}")
-                                recomAdapter.submitList(it.articlelist)
-                                if(it.articlelist!!.isEmpty()){
-                                    binding.lotti.visibility = View.VISIBLE
-                                } else {
-                                    binding.lotti.visibility = View.GONE
-                                }
-                                binding.bar.visibility = View.GONE
-                            }
-                            is NewsResource.Error -> {
-                                binding.lotti.visibility = View.VISIBLE
-                                binding.bar.visibility = View.GONE
-
-                                Log.d(TAG, "error: ${it.message}")
-                            }
-                            is NewsResource.Loadding -> {
-                                Log.d(TAG, "onCreateView: loadding")
-                                binding.lotti.visibility = View.GONE
-                                binding.bar.visibility = View.VISIBLE
-
-                            }
-
-                        }
-                    }
-                }
 
 
+            setsearch(tv)
 
                 return@OnEditorActionListener true
             }
@@ -135,12 +107,45 @@ class SearchFragment : Fragment() {
 
 
             binding.search.setText(arraylist?.get(0)!!)
+            setsearch(arraylist?.get(0))
 
 
 
 
 
 
+
+        }
+    }
+    fun setsearch(text:String){
+        lifecycleScope.launch {
+            newsViewModels.getsearchwords(binding.search.text.toString()).collect {
+                when (it) {
+                    is NewsResource.Success -> {
+                        Log.d(TAG, "onCreateView: ${it.articlelist}")
+                        recomAdapter.submitList(it.articlelist)
+                        if(it.articlelist!!.isEmpty()){
+                            binding.lotti.visibility = View.VISIBLE
+                        } else {
+                            binding.lotti.visibility = View.GONE
+                        }
+                        binding.bar.visibility = View.GONE
+                    }
+                    is NewsResource.Error -> {
+                        binding.lotti.visibility = View.VISIBLE
+                        binding.bar.visibility = View.GONE
+
+                        Log.d(TAG, "error: ${it.message}")
+                    }
+                    is NewsResource.Loadding -> {
+                        Log.d(TAG, "onCreateView: loadding")
+                        binding.lotti.visibility = View.GONE
+                        binding.bar.visibility = View.VISIBLE
+
+                    }
+
+                }
+            }
         }
     }
     companion object {

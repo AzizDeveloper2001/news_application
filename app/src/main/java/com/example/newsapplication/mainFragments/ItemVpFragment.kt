@@ -55,7 +55,7 @@ class ItemVpFragment : Fragment() {
     ): View? {
         App.appComponent.fragmentitemtype(this)
         binding= FragmentItemVpBinding.inflate(inflater,container,false)
-        vpRvAdapter= VpRvAdapter(object :VpRvAdapter.onItem{
+        vpRvAdapter= VpRvAdapter(requireContext(),object :VpRvAdapter.onItem{
             override fun onLike(t: ArticlesItem) {
                 lifecycleScope.launch {
                     val bookMarkEntity=BookMarkEntity(t.publishedAt,t.author,t.urlToImage,t.description,t.source,t.title,t.url,t.content)
